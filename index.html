@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">  
+    <title>Google Trends Website</title>
+    <!-- Custom styles for this template-->
+    <link href="css/style.css" rel="stylesheet">
+
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script src="app.js"></script>
+
+  
+</head>
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+                <div class="sidebar-brand-icon rotate-n-15">
+                    <i class="fas fa-laugh-wink"></i>
+                </div>
+            </a>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <span>Main Page</span></a>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+
+         
+
+            <!-- Nav Item - Tables -->
+            <li class="nav-item">
+                <a class="nav-link" href="tables.html">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Tables</span></a>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider d-none d-md-block">
+
+            <!-- Sidebar Toggler (Sidebar) -->
+            <div class="text-center d-none d-md-inline">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div>
+
+         
+
+        </ul>
+        <!-- End of Sidebar -->
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Topbar -->
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+                    <!-- Sidebar Toggle (Topbar) -->
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                        <i class="fa fa-bars"></i>
+                    </button>
+
+                  
+
+
+          
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Page Heading -->
+                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                        <h1 class="h3 mb-0 text-gray-800">Google Trends</h1>
+                      
+                    </div>
+
+                   
+            </div>
+        </nav>
+
+            <!-- Display Statistics -->
+            <div class="statistic-container">
+                <!-- Mean Statistic -->
+                <div class="statistic-case">
+                  <h3>Number of Countries</h3>
+                  <p id="1"></p>
+                </div>
+              
+                <!-- Median Statistic -->
+                <div class="statistic-case">
+                  <h3>Number of Categories</h3>
+                  <p id="2"></p>
+                </div>
+              
+                <!-- Standard Deviation Statistic -->
+                <div class="statistic-case">
+                  <h3>Number of Queries</h3>
+                  <p id="3"></p>
+                </div>
+              </div>
+    
+                 <!-- Graphs -->
+              
+
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Page Heading -->
+                    <h1 class="h3 mb-2 text-gray-800"></h1>
+                  
+
+                    <!-- Content Row -->
+                    <div class="row">
+
+                        <div class="col-xl-8 col-lg-7">
+
+                            <!-- Area Chart -->
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary">Line Chart</h6>
+                                </div>
+                                <div class="card-body">
+                                    <div class="line-chart"></div>
+                                    
+                                       
+                                        <canvas id="myAreaChart"></canvas>
+                                        
+                               
+                                
+                                </div>
+                            </div>
+
+                            
+
+                        </div>
+
+                        <!-- Donut Chart -->
+                        <div class="col-xl-4 col-lg-5">
+                            <div class="card shadow mb-4" style="height: 500px;">
+                                <!-- Card Header - Dropdown -->
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary">Circle Diagram</h6>
+                                </div>
+                                <!-- Card Body -->
+                                <div class="card-body" style="height: 100%;">
+                                    <div class="chart-pie" id="circular-container">
+                                        <!-- Your circular diagram will be rendered here -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+
+                </div>
+                <!-- /.container-fluid -->
+<!-- Content Row -->
+<div class="row">
+
+    <div class="col-xl-8 col-lg-7">
+
+        <!-- Area Chart -->
+        <div class="card shadow mb-4">
+            <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary">scatter plot</h6>
+            </div>
+            <div class="card-body">
+                <div class="scatter-plot"></div>
+                
+                   
+                    <canvas id="myAreaChart"></canvas>
+                    
+           
+            
+            </div>
+        </div>
+
+        <!-- Bar Chart -->
+        <div class="card shadow mb-4">
+            <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary">Bar Chart</h6>
+            </div>
+            <div class="card-body">
+                <div class="bar-chart"></div>
+                
+                    <canvas id="myBarChart"></canvas>
+                
+                
+            </div>
+        </div>
+
+         
+
+    </div>
+
+   
+    
+</div>
+
+</div>
+<!-- /.container-fluid -->
+
+</div>
+<!-- End of Main Content -->
+
+
+
+
+    </div>
+
+</div>
+</div>
+
+         
+    
+
+</body>
+
+</html>

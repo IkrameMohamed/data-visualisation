@@ -1,0 +1,177 @@
+location,year,category,rank,query
+United States,2016,Technology,80,Smartphones
+United States,2016,Travel,60,Adventure Travel
+United States,2017,Food,45,Vegan Recipes
+United States,2018,Fitness,75,Home Workouts
+United States,2019,Entertainment,70,Streaming Services
+United Kingdom,2020,Technology,70,5G Technology
+United Kingdom,2020,Travel,50,Beach Holidays
+United Kingdom,2021,Food,55,Plant-Based Diet
+United Kingdom,2022,Fitness,80,Yoga
+United Kingdom,2022,Entertainment,80,Virtual Concerts
+United Kingdom,2022,Fitness,30,Swimming
+Canada,2016,Technology,60,Artificial Intelligence
+Canada,20216,Travel,40,Ski Resorts
+Canada,2017,Food,50,Gourmet Cooking
+Canada,2018,Fitness,60,Running
+Canada,2019,Entertainment,75,Online Gaming
+Canada,2017,Food,50,Gourmet Cooking
+Canada,2019,Food,90,Gourmet Cooking
+Canada,2020,Food,50,Gourmet Cooking
+Canada,2021,Food,65,Gourmet Cooking
+Canada,2022,Food,70,Gourmet Cooking
+Canada,2022,Food,55,Gourmet Cooking
+Canada,2022,Food,33,Gourmet Cooking
+Canada,2023,Food,45,Gourmet Cooking
+Australia,2022,Technology,75,Cryptocurrency
+Australia,2022,Travel,55,Backpacking
+Australia,2022,Food,65,Healthy Eating
+Australia,2022,Fitness,85,CrossFit
+Australia,2022,Entertainment,75,Podcasts
+Germany,2022,Technology,65,Smart Homes
+Germany,2022,Travel,48,Cultural Tours
+Germany,2022,Food,52,Organic Farming
+Germany,2022,Fitness,78,Cycling
+Germany,2022,Entertainment,80,AR Gaming
+India,2022,Technology,85,E-commerce
+India,2022,Travel,42,Pilgrimage
+India,2022,Food,58,Spices
+India,2022,Fitness,82,Zumba
+India,2022,Entertainment,72,Bollywood
+France,2022,Technology,75,Robotics
+France,2022,Travel,52,Wine Tours
+France,2022,Food,60,French Cuisine
+France,2022,Fitness,80,Swimming
+France,2022,Entertainment,70,Art Exhibitions
+Brazil,2022,Technology,68,Blockchain
+Brazil,2022,Travel,45,Carnival
+Brazil,2022,Food,55,Street Food
+Brazil,2022,Fitness,75,Surfing
+Brazil,2022,Entertainment,75,Samba Music
+United States,2022,Technology,75,Smart Glasses
+United States,2022,Travel,55,Space Tourism
+United States,2022,Food,70,Plant-Based Protein
+United States,2022,Fitness,90,HIIT Workouts
+United States,2023,Entertainment,80,Live Streaming
+United Kingdom,2023,Technology,68,Quantum Computing
+United Kingdom,2023,Travel,50,City Breaks
+United Kingdom,2023,Food,62,Farm-to-Table
+United Kingdom,2023,Fitness,85,Pilates
+United Kingdom,2023,Entertainment,75,Immersive Theater
+Canada,2023,Technology,78,Drone Technology
+Canada,2023,Travel,42,Hiking Trails
+Canada,2023,Food,48,Sustainable Farming
+Canada,2023,Fitness,80,Rowing
+Canada,2023,Entertainment,80,VR Experiences
+Australia,2023,Technology,72,Artificial Reality
+Australia,2023,Travel,52,Desert Expeditions
+Australia,2023,Food,65,Paleo Diet
+Australia,2023,Fitness,88,Mountain Biking
+Australia,2023,Entertainment,72,Interactive Museums
+Germany,2023,Technology,60,Genetic Engineering
+Germany,2023,Travel,45,Historical Tours
+Germany,2023,Food,55,Vegan Cooking
+Germany,2023,Fitness,78,Calisthenics
+Germany,2023,Entertainment,75,Escape Rooms
+India,2023,Technology,80,Augmented Reality
+India,2023,Travel,38,Wildlife Safaris
+India,2023,Food,50,Ayurvedic Diet
+India,2023,Fitness,82,Martial Arts
+India,2023,Entertainment,48,Indie Films
+France,2022,Technology,75,Space Exploration
+France,2023,Travel,48,Skiing Destinations
+France,2023,Food,60,Organic Wineries
+France,2022,Fitness,80,Synchronized Swimming
+France,2023,Entertainment,80,Street Performances
+Brazil,2023,Technology,65,Nanotechnology
+Brazil,2023,Travel,42,Surf Camps
+Brazil,2021,Food,55,Regional Cuisines
+Brazil,2023,Fitness,75,CrossFit Competitions
+Brazil,2023,Entertainment,75,Samba Festivals
+Japan,2023,Technology,78,Robotics Innovation
+Japan,2023,Travel,55,Hot Springs Experience
+Japan,2021,Food,62,Sushi Making Classes
+Japan,2023,Fitness,80,Kendo Workshops
+Japan,2022,Entertainment,72,Anime Conventions
+South Korea,2023,Technology,72,K-Pop VR Experiences
+South Korea,2023,Travel,50,Island Retreats
+South Korea,2023,Food,58,Korean BBQ Nights
+South Korea,2022,Fitness,78,Taekwondo Training
+South Korea,2023,Entertainment,78,K-Drama Marathons
+China,2023,Technology,68,Artificial Intelligence in Education
+China,2023,Travel,45,Great Wall Hiking
+China,2023,Food,55,Dim Sum Culinary Tours
+China,2023,Fitness,75,Traditional Chinese Martial Arts
+China,2023,Entertainment,55,Traditional Opera Performances
+Russia,2023,Technology,70,Space Exploration
+Russia,2023,Travel,48,Trans-Siberian Railway Journeys
+Russia,2023,Food,60,Russian Dumpling Making
+Russia,2023,Fitness,80,Ice Skating
+Russia,2023,Entertainment,70,Ballet Performances
+Mexico,2020,Technology,75,Mayan Archaeology Expeditions
+Mexico,2023,Travel,52,Beachfront Resorts
+Mexico,2023,Food,65,Authentic Mexican Cooking
+Mexico,2022,Fitness,88,Lucha Libre Wrestling Classes
+Mexico,2023,Entertainment,72,Mariachi Festivals
+Italy,2023,Technology,72,Artificial Intelligence in Art
+Italy,2023,Travel,50,Amalfi Coast Exploration
+Italy,2022,Food,58,Authentic Pizza Making
+Italy,2023,Fitness,78,Cycling Tours
+Italy,2023,Entertainment,75,Opera Nights
+Spain,2023,Technology,68,Sustainable Technology Solutions
+Spain,2023,Travel,45,Historical City Walking Tours
+Spain,2023,Food,55,Paella Cooking Classes
+Spain,2023,Fitness,75,Flamenco Dance Workshops
+Spain,2023,Entertainment,55,Tapas and Flamenco Evenings
+Netherlands,2023,Technology,75,Innovation in Renewable Energy
+Netherlands,2023,Travel,52,Cycling Holidays
+Netherlands,2023,Food,65,Dutch Cheese Tasting
+Netherlands,2023,Fitness,88,Windmill Yoga Retreats
+Netherlands,2023,Entertainment,62,Electronic Dance Music Festivals
+Sweden,2023,Technology,70,Smart Transportation Solutions
+Sweden,2023,Travel,48,Arctic Circle Adventures
+Sweden,2023,Food,60,Swedish Fika Experience
+Sweden,2023,Fitness,82,Ice Climbing Expeditions
+Sweden,2023,Entertainment,58,Midsummer Music Festivals
+Norway,2023,Technology,75,Green Technology Initiatives
+Norway,2023,Travel,50,Fjord Cruises
+Norway,2023,Food,58,Traditional Norwegian Cooking
+Norway,2023,Fitness,78,Cross-Country Skiing
+Norway,2023,Entertainment,45,Norwegian Folk Music Festivals
+Switzerland,2023,Technology,72,Swiss Precision Engineering
+Switzerland,2023,Travel,52,Ski Resorts and Swiss Chocolate
+Switzerland,2023,Food,65,Fondue Nights
+Switzerland,2023,Fitness,88,Mountain Biking Trails
+Switzerland,2023,Entertainment,62,Jazz Festivals in Montreux
+Austria,2023,Technology,68,Innovations in Green Energy
+Austria,2023,Travel,45,Alps Hiking and Wellness Retreats
+Austria,2023,Food,55,Austrian Wine Tasting
+Austria,2023,Fitness,75,Yodeling Workshops
+Austria,2023,Entertainment,75,Classical Music Concerts in Vienna
+Greece,2023,Technology,65,Technology and Ancient History Tours
+Greece,2023,Travel,42,Island-Hopping Adventures
+Greece,2023,Food,55,Mediterranean Diet Cooking Classes
+Greece,2023,Fitness,75,Olympic-Inspired Workouts
+Greece,2023,Entertainment,45,Greek Mythology Theater Performances
+Turkey,2023,Technology,78,Innovations in Turkish Cuisine
+Turkey,2023,Travel,55,Cappadocia Hot Air Balloon Tours
+Turkey,2023,Food,62,Turkish Delight Making Classes
+Turkey,2023,Fitness,80,Bosphorus Swim Challenges
+Turkey,2023,Entertainment,62,Whirling Dervish Performances
+
+Pakistan,2016,Technology,80,Cricket score
+Pakistan,2016,Technology,75,PSL schedule 2016
+Pakistan,2016,Entertainment,70,PTV Sports Live
+Pakistan,2018,Entertainment,75,Euro 2016
+Pakistan,2018,Entertainment,70,PAK vs ENG
+Greece,2020,Technology,76,Πάσχα
+Greece,2020,Technology,80,Αγίου Βαλεντίνου
+Greece,2021,Technology,50,Πανελλήνιες
+Greece,2021,Technology,76,Κορωνοϊός
+Greece,2022,Food,80,Πού έγινε σεισμός
+Greece,2022,Food,85,Πού εντοπίζονται σήμερα κρούσματα
+Greece,2022,Travel,50,Πού στέλνω μήνυμα για μετακίνηση
+Greece,2022,Travel,65,"Πού παίζονται τα ""Παράσιτα"""
+Greece,2022,Travel,53,Πότε ανοίγουν τα σχολεία
+Greece,2022,Travel,70,Πότε ανοίγουν τα μαγαζιά
+
